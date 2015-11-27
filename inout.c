@@ -38,9 +38,9 @@
 
 #include "numdiff.h"
 #include "linesplit.h"
-#include <cmpbuf.h>
-#include <setmode.h>
-#include <xalloc.h>
+#include "cmpbuf.h"
+#include "setmode.h"
+#include "xalloc.h"
 
 /* Lines are put into equivalence classes of lines that match in lines_differ.
    Each equivalence class is represented by one of these structures,

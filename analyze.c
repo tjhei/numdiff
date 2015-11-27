@@ -50,9 +50,9 @@
 */
 
 #include "numdiff.h"
-#include <cmpbuf.h>
-#include <error.h>
-#include <xalloc.h>
+#include "cmpbuf.h"
+#include "error.h"
+#include "xalloc.h"
 
 static lin *xvec, *yvec;	/* Vectors being compared. */
 static lin *fdiag;		/* Vector, indexed by diagonal, containing

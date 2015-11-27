@@ -18,7 +18,7 @@
 */
 
 #include"numdiff.h"
-#include<xalloc.h>
+#include "xalloc.h"
 
 /* Constants and default values */
 #define CHUNK_ALLOC  20480

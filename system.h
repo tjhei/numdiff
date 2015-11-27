@@ -20,7 +20,7 @@
    If not, write to the Free Software Foundation,
    59 Temple Place - Suite 330, Boston, MA 02111-1307, USA.  */
 
-#include <config.h>
+#include "config.h"
 
 /* Don't bother to support K&R C compilers any more; it's not worth
    the trouble.  These macros prevent some library modules from being
@@ -351,6 +351,7 @@ void *memchr ();
 /* Type used for fast comparison of several bytes at a time.  */
 
 #ifndef word
+#define uintmax_t unsigned long long
 # define word uintmax_t
 #endif
 
